@@ -1,0 +1,6 @@
+in a nice stylish modern airy and light style create an app to managed data files from navigraph. To get the data, the app must sign in and download xplane12_native_2412 file
+The app is PyQt6 app.
+Describe the app in comments within the file.
+Add a status line. Put the version of the app in the status line. Start at 0.001 and increment by .001 on every change. In the comments summerise the changes for each version.
+Buttons in the app should have modern icons to describe the function.
+When hovering over a button give a tool tip for the button.
