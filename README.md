@@ -1,44 +1,61 @@
-# App Name
+# Snippet Manager
 
 ## Description
 
-[App Name] is a [brief description of the app, e.g., "a task management tool designed to help users organize their daily activities efficiently"]. It provides users with [list key features, e.g., "an intuitive interface, real-time collaboration, and seamless integration with other productivity tools"].
+Snippet Manager is a modern, light-themed application for managing code snippets and text notes. It allows users to store snippets as individual text files, search and filter snippets, and provides a user-friendly interface with a persistent settings feature.
 
 ## Features
 
-- [Feature 1: e.g., "Create, edit, and delete tasks"]
-- [Feature 2: e.g., "Set deadlines and reminders"]
-- [Feature 3: e.g., "Collaborate with team members"]
-- [Feature 4: e.g., "Track progress with visual dashboards"]
+- Store snippets as individual text files
+- Search and filter snippets
+- Modern light theme interface
+- Persistent settings
+- Directory-based storage
 
 ## Installation
 
 To install and run the app locally, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/womail/snippet-manager.git
    ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
    ```bash
-   cd your-repo-name
+   cd snippet-manager
    ```
-3. Install dependencies:
+3. **Create a virtual environment:**
    ```bash
-   npm install
+   python -m venv venv
    ```
-4. Start the application:
+4. **Activate the virtual environment:**
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+5. **Install the dependencies:**
    ```bash
-   npm start
+   pip install -r requirements.txt
+   ```
+6. **Run the application:**
+   ```bash
+   python snippet_manager.py
    ```
 
 ## Usage
 
-[Provide instructions on how to use the app, e.g., "After starting the app, navigate to `http://localhost:3000` in your browser."]
+- **New Snippet:** Click the 'New Snippet' button to create a new snippet.
+- **Save Snippet:** After editing, click the 'Save Snippet' button to save changes.
+- **Delete Snippet:** Select a snippet and click the 'Delete Snippet' button to remove it.
+- **Change Directory:** Use the 'Settings' button to change the snippets directory.
 
 ## File Storage
 
-The app stores its files [describe where files are stored, e.g., "locally in the `data` directory" or "in a cloud database such as Firebase"]. Configuration files are located in the `config` directory.
+The app stores its files locally in the directory specified in the `snippet_settings.json` file. Configuration files are located in the `config` directory.
 
 ## Contributing
 
@@ -46,7 +63,7 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fo
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
