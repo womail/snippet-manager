@@ -10,7 +10,7 @@ Snippet Manager is a modern, light-themed application for managing code snippets
 - Search and filter snippets
 - Modern light theme interface
 - Persistent settings
-- Directory-based storage
+- Directory-based storage.
 
 ## Installation
 
